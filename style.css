@@ -1,0 +1,199 @@
+/*FULL PAGE BODY  */
+body {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    /* background: linear-gradient(90deg, rgba(160, 255, 208, 1) 0%, rgba(179, 235, 181, 1) 24%, rgba(226, 233, 91, 1) 100%); */
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY HEADER PART */
+header {
+    height: 60vh;
+    background-image: url(/Images/pexels-hasan-albari-1229861.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+
+/* NAVBAR */
+navbar {}
+
+/* LIST UNDER NAVBAR */
+#navbar li {
+    display: inline-block;
+    margin: 0px 18px 18px 0px;
+
+
+}
+
+/* LIST UNDER NAVBAR */
+#navbar li a {
+    color: white;
+
+}
+
+.ul-list {
+    padding-left: 0px;
+}
+
+/* hover  */
+#navbar .ul-list a:hover {
+    background-color: rgba(183, 39, 169, 0.571);
+    box-shadow: 0px 0px 10px 4px blueviolet;
+}
+
+
+/* ALL ANCHER TAG */
+a {
+    text-decoration: none;
+    transition-duration: 0.8s;
+
+
+}
+
+
+
+/* HOME PAGE */
+.home {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.home-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(145, 54, 54);
+}
+
+.home-flex div {
+    height: auto;
+    /* width: 50%; */
+}
+
+.home-text {
+    height: auto;
+    width: 100px;
+    align-items: center;
+}
+
+.my-img {
+    height: 16rem;
+    width: 16rem;
+    margin: auto;
+    margin-top: -20vh;
+}
+
+.my-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40rem;
+
+
+}
+
+.home .my-img img:hover {
+    box-shadow: 0px 0px 8px 4px rgb(226, 255, 228);
+    transition-duration: 0.6s;
+}
+
+
+/* HOME IMAGE */
+#home-image {
+    height: auto;
+    width: 50vw;
+}
+
+#home-image img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px 80px;
+}
+
+/* SKILL SECTION */
+#skill-section {
+    height: auto;
+    width: 100%;
+}
+
+.skill {
+    height: inherit;
+    width: auto;
+    margin: 5px;
+}
+
+.skill-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-display {
+    height: auto;
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.skill-container {
+    background-color: violet;
+    border-radius: 10px 10px 10px 10px;
+    height: 1.7rem;
+    width: 4.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* CONNECT SECTION  */
+
+#connect {
+    margin: 10px 50px 10px 50px;
+}
+
+#social-list {
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    background-color: rgb(43, 45, 44);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#social-list svg {
+    background-color: chartreuse;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+#social-list svg:hover {
+
+    box-shadow: 2px 2px 5px 2px whitesmoke;
+    transition: 0.6s;
+}
+
+#social-list li {
+    list-style: none;
+}
