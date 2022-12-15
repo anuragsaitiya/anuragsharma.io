@@ -13,8 +13,8 @@ li {
 
 /* BODY HEADER PART */
 header {
-    height: 60vh;
     background-image: url(/Images/pexels-hasan-albari-1229861.jpg);
+    height: 60vh;
     background-size: cover;
     background-position: center;
     opacity: 0.8;
@@ -71,20 +71,20 @@ a {
 
 .home-flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(145, 54, 54);
+    justify-content: center;
+    align-items: center;
 }
 
 .home-flex div {
     height: auto;
-    /* width: 50%; */
+
 }
 
 .home-text {
     height: auto;
     width: 100px;
-    align-items: center;
+    overflow: auto;
+
 }
 
 .my-img {
@@ -117,7 +117,8 @@ a {
 #home-image img {
     height: auto;
     width: 100%;
-    border-radius: 20px 80px;
+    opacity: 0.8;
+    border-radius: 20px 20px;
 }
 
 /* SKILL SECTION */
@@ -159,6 +160,47 @@ a {
     justify-content: center;
 }
 
+/* EDUCATION SECTION  */
+#education {
+    border: 2px solid black;
+}
+
+.education-heading {
+    margin: 5px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.education-heading span {
+    margin: 2px;
+}
+
+.education-heading span svg {
+    margin-bottom: 2px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.education-blocks {
+    position: relative;
+    border: 2px solid blueviolet;
+}
+
+.education-blocks div {
+    position: relative;
+    margin: 3px;
+    height: 10rem;
+    width: 15rem;
+    border: 2px solid royalblue;
+}
+
+.education-blocks div:nth-child(2n) {
+    margin-left: 50%;
+}
 
 
 
