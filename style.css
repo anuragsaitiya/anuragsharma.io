@@ -3,7 +3,6 @@ body {
     height: auto;
     width: 100%;
     margin: 0px;
-    /* background: linear-gradient(90deg, rgba(160, 255, 208, 1) 0%, rgba(179, 235, 181, 1) 24%, rgba(226, 233, 91, 1) 100%); */
 }
 
 li {
@@ -25,20 +24,18 @@ header {
 
 
 /* NAVBAR */
-navbar {}
+
 
 /* LIST UNDER NAVBAR */
 #navbar li {
     display: inline-block;
-    margin: 0px 18px 18px 0px;
-
+    margin: 10px 18px 18px 10px;
 
 }
 
 /* LIST UNDER NAVBAR */
 #navbar li a {
-    color: white;
-
+    color: rgba(142, 69, 69, 0.904);
 }
 
 .ul-list {
@@ -162,6 +159,9 @@ a {
 
 /* EDUCATION SECTION  */
 #education {
+    position: relative;
+    margin: auto;
+    width: 80%;
     border: 2px solid black;
 }
 
@@ -192,14 +192,21 @@ a {
 
 .education-blocks div {
     position: relative;
-    margin: 3px;
-    height: 10rem;
-    width: 15rem;
+    margin: 10px;
+    width: 40%;
     border: 2px solid royalblue;
 }
 
-.education-blocks div:nth-child(2n) {
-    margin-left: 50%;
+.education-blocks div:nth-child(even) {
+    margin-left: 55%;
+}
+
+.education-blocks div:nth-child(odd) {
+    text-align: right;
+}
+
+#year {
+    font-weight: 550;
 }
 
 
@@ -208,7 +215,7 @@ a {
 /* CONNECT SECTION  */
 
 #connect {
-    margin: 10px 50px 10px 50px;
+    /* margin: 10px 50px 10px 50px; */
 }
 
 #social-list {
@@ -218,11 +225,13 @@ a {
     background-color: rgb(43, 45, 44);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    /* justify-content: space-around; */
 
 }
 
 #social-list svg {
+    margin: 5%;
     background-color: chartreuse;
     border-radius: 5px;
     height: 2.5rem;
@@ -237,5 +246,6 @@ a {
 }
 
 #social-list li {
+    margin: 5%;
     list-style: none;
 }
