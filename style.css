@@ -12,14 +12,15 @@ li {
 
 /* BODY HEADER PART */
 header {
-    background-image: url(/Images/pexels-hasan-albari-1229861.jpg);
+    background-image: url(/Images/anthony-garand-5sT07dJl65s-unsplash.jpg);
     height: 60vh;
-    background-size: cover;
+    width: 100%;
+    background-size: contain;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     background-attachment: fixed;
     text-align: center;
-
+    background-repeat: no-repeat;
 }
 
 
@@ -53,8 +54,6 @@ header {
 a {
     text-decoration: none;
     transition-duration: 0.8s;
-
-
 }
 
 
@@ -85,6 +84,8 @@ a {
 }
 
 .my-img {
+    border-radius: 132px;
+    border: 2px solid rgb(139, 60, 223);
     height: 16rem;
     width: 16rem;
     margin: auto;
@@ -125,14 +126,15 @@ a {
 }
 
 .skill {
-    height: inherit;
-    width: auto;
-    margin: 5px;
+    height: auto;
+    width: 100%;
+    margin: 4px;
 }
 
 .skill-heading {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .skill-display {
@@ -146,8 +148,16 @@ a {
 
 }
 
+.skill-container:nth-child(even) {
+    background-color: rgb(43, 45, 44);
+    color: white;
+}
+
+.skill-container:nth-child(odd) {
+    background-color: chartreuse;
+}
+
 .skill-container {
-    background-color: violet;
     border-radius: 10px 10px 10px 10px;
     height: 1.7rem;
     width: 4.5rem;
@@ -215,18 +225,45 @@ a {
 /* CONNECT SECTION  */
 
 #connect {
-    /* margin: 10px 50px 10px 50px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background-color: rgb(43, 45, 44);
+    border-radius: 8px;
 }
 
+.form {
+    margin-top: 30px;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+
 #social-list {
-    border-radius: 5px;
     height: auto;
-    width: auto;
-    background-color: rgb(43, 45, 44);
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-around; */
 
 }
 
@@ -240,12 +277,10 @@ a {
 }
 
 #social-list svg:hover {
-
     box-shadow: 2px 2px 5px 2px whitesmoke;
-    transition: 0.6s;
 }
 
 #social-list li {
-    margin: 5%;
+    margin: 4%;
     list-style: none;
 }
