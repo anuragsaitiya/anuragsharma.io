@@ -12,16 +12,24 @@ li {
 }
 
 /* BODY HEADER PART */
-header {
-    background-image: url(/Images/anthony-garand-5sT07dJl65s-unsplash.jpg);
-    height: 60vh;
-    width: 100%;
+header img {
+    /* background-image: url(/Images/anthony-garand-5sT07dJl65s-unsplash.jpg); */
+    height: auto;
+    width: 99%;
+    border-radius: 1.5px;
     background-size: contain;
     background-position: center;
     opacity: 0.9;
     background-attachment: fixed;
     text-align: center;
     background-repeat: no-repeat;
+}
+
+header {
+    /* background-image: url(/Images/anthony-garand-5sT07dJl65s-unsplash.jpg); */
+    height: auto;
+    width: 100%;
+    text-align: center;
 }
 
 
