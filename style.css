@@ -48,9 +48,9 @@ header nav {
 
 /* hover  */
 #navbar .ul-list a:hover {
-    /* background-color: rgba(175, 84, 166, 0.571); */
+    background-color: yellow;
     box-shadow: 0px 0px 8px 4px #3C1874;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 
@@ -223,9 +223,19 @@ a {
     position: absolute;
     height: 85%;
     width: 0;
-    border: 2px black dashed;
+    border: 2px black dotted;
     top: 10%;
     left: 50%;
+}
+
+.timeline-divider span {
+    margin: -12px;
+    align-items: center;
+}
+
+.timeline-divider span svg {
+    position: sticky;
+    top: 15px;
 }
 
 
