@@ -297,8 +297,18 @@ a {
 
 
 .form {
-    border: 2px solid black;
+    border: 1px solid whitesmoke;
+
     margin-top: 30px;
+    padding: 8px;
+    box-shadow: inset 20px 20px 20px rgb(0 0 0 / 5%), 25px 35px 20px rgb(0 0 0 / 5%), 25px 30px 30px rgb(0 0 0 / 5%), inset -20px -20px 25px rgb(255 255 255 / 80%);
+    border-radius: 31% 100% 49% 29% / 100% 100% 24% 19%;
+    background-color: #5bd8d8;
+}
+
+.form:hover {
+    border-radius: 8px;
+    transition: 2s;
 }
 
 form.form-example {
